@@ -1,0 +1,29 @@
+.meetingPreparationReport {
+  position: absolute;
+  color: transparent;
+  transform: translate(-50%, calc(100% - 6rem)) rotate(1.5deg);
+  animation: animate 2s;
+}
+
+.meetingPreparationReport:hover {
+  color: #2c2628;
+  transform: translate(-50%, 0) rotate(0);
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+    border-radius: 0.4rem;
+    color: #2c2628;
+    pointer-events: none;
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(0);
+    border-radius: 0.4rem;
+    color: #2c2628;
+    pointer-events: none;
+  }
+  100% {
+    pointer-events: none;
+  }
+}

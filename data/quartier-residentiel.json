@@ -1,0 +1,101 @@
+{
+  "title": "Co-construction d'un quartier résidentiel",
+  "description": "Co-construction d'un quartier résidentiel à la périphérie de la ville de Nantes. Le projet consiste à construire 2 batiments de 5 étages et 3 batiments de 3 étages. Les appartements sont de 2 à 4 pièces. Ce projet permettra d'accueillir 100 familles.",
+  "image": "backgrounds/quartier-residentiel.jpg",
+  "actors": [
+    {
+      "id": "c37cd1f1-76c2-46d0-a0bb-a072c201e162",
+      "name": "Patrick Vacca",
+      "jobTitle": "Maire",
+      "description": "Patrick Vacca est maire de la ville de Nantes depuis 2014. Il a été élu avec 60% des voix. Il a tendance à monopoliser la parole lors des réunions.",
+      "avatar": "actors/maire.png",
+      "domains": ["Budget"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 50,
+      "motivateAction": "Il explique l'importance du projet, financé par la ville de Nantes.",
+      "motivateTexts": [
+        "Nous avons un projet de construction du nouveau quartier, nous avons besoin de votre aide pour le réaliser.",
+        "C'est un projet de co-construction, nous allons construire ensemble le quartier de demain. Nous avons besoin de votre aide pour le réaliser. Nous avons besoin de votre avis, de vos idées, de vos envies, de vos besoins. Nous allons construire ensemble le quartier de demain.",
+        "Le budget est de 100 millions d'euros. Nous ne pouvons pas dépasser cette somme, qui est déjà énorme gardez cela en tête. Je propose que cette somme soit répartie en 3 parties : 50 millions pour la construction, 30 millions pour l'entretien et 20 millions pour la sécurité. Cette répartition est à titre indicatif, nous pouvons la modifier si vous le souhaitez. Le seul point sur lequel nous ne pouvons pas débattre est le budget, il est fixé à 100 millions d'euros.",
+        "Avec notre budget nous avons plusieurs solutions possibles mais celle la plus adéquate pourrait être la suivante : faire 2 batiments de 5 étages et 3 batiments de 3 étages. Les appartements seraient de 2 à 4 pièces. L'architecte présentera les plans de ces 5 batiments. Nous pouvons les modifier si vous le souhaitez. Nous pouvons aussi en construire d'autres si vous le souhaitez.",
+        "Tout ce que vous proposez me semblent être de bonnes idées mais l'aspect énonomique est trop laissé de côté"
+      ]
+    },
+    {
+      "id": "748ddf78-5bd8-4bc1-9620-d60b114d0f8a",
+      "name": "Jean Dupont",
+      "jobTitle": "Architecte",
+      "description": "Jean Dupont est architecte depuis 20 ans. Il a travaillé sur de nombreux projets de construction de logements. Il a donc l'habitude de travailler avec les élus et les habitants.",
+      "avatar": "actors/architecte-designer.png",
+      "domains": ["Éco-responsabilité", "Attractivité"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 20,
+      "motivateAction": "Il présente les plans d'un quartier moderne, éco-responsable et attractif.",
+      "motivateTexts": [
+        "Voici les plans de nos 5 batiments. Nous pouvons les modifier si vous le souhaitez. Nous pouvons aussi en construire d'autres si vous le souhaitez.",
+        "Ces batiments seraient éco-responsables et respecteraient les normes de sécurité. Ils seront construits avec des matériaux de qualité et seront bien isolés. Ils seront aussi bien équipés et bien desservis.",
+        "Ces batiments auront un but attractif, ils seront beaux et agréables à vivre. De nombreuses activités pourront être organisées dans ces batiments afin de créer une vie de quartier. Nous pouvons aussi ajouter des équipements si vous le souhaitez."
+      ]
+    },
+    {
+      "id": "7dd5cc7c-c01e-4146-913a-e5d645a3d694",
+      "name": "Famille Leblanc",
+      "jobTitle": "Famille",
+      "description": "La famille Leblanc est composée de 4 personnes. Ils habitent actuellement dans un appartement de 3 pièces. Ils souhaitent avoir un appartement plus grand pour accueillir leur famille.",
+      "avatar": "actors/famille1.png",
+      "domains": ["Bien-être", "Budget"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 12,
+      "motivateAction": "Ils expliquent vouloir un quartier plus calme et plus moderne, sans pour autant dépasser leur limite de budget.",
+      "motivateTexts": [
+        "Nous sommes une famille de 4 personnes, 2 adultes et 2 bébés. Nous habitons dans un 3 pièces et devont impérativement avoir un 4 pièces.",
+        "Nous avons un budget de 150 000 euros maximum.",
+        "Nous souhaitons un quartier calme et moderne. Nous souhaitons aussi que ce quartier soit bien desservi et que les enfants puissent y aller à pied.",
+        "Nous avons besoin d'un espace de vie, d'un espace de travail, d'un espace de loisir, d'un espace de jeux pour nos enfants.",
+        "Le silence est pour nous primordial, nous avons besoin de calme pour travailler, pour dormir, pour nous reposer.",
+        "J'aurai aimer que le quartier soit vert, fleuri et bien coloré.",
+        "Au niveau des mètres carrés, c'est possible de viser 120 mètres carrés par logement ?"
+      ]
+    },
+    {
+      "id": "df26552c-9353-4366-b2e9-355256fece88",
+      "name": "Famille Fournier",
+      "jobTitle": "Famille",
+      "description": "La famille Fournier est composée de 5 personnes. Habitant à la campagne, ils souhaitent s'installer plus proche de la ville pour faciliter leurs déplacements.",
+      "avatar": "actors/famille2.png",
+      "domains": ["Bien-être", "Attractivité"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 12,
+      "motivateAction": "Ils expliquent vouloir un quartier calme et accéder facilement au centre-ville.",
+      "motivateTexts": [
+        "Nous habitons à la campagne et se déplacer en voiture est un vrai calvaire. Nous avons besoin d'un quartier proche de la ville, proche des transports en commun.",
+        "Nous avons des voitures, nous devons donc avoir la possibilité de nous garer facilement, nous avons besoin d'un parking.",
+        "Il est important pour nous de pouvoir se déplacer facilement, nous avons besoin d'un accès facile aux transports en commun.",
+        "Avoir accès aux transports en commun ne peuvent qu'être positif, tous les habitants du quartier pourront en profiter.",
+        "Etant donné que nous voulons habiter plus proche du centre de Nantes pour le travail, nous avons besoin d'un accès facile à la ville."
+      ]
+    },
+    {
+      "id": "50b9af5e-95c9-4536-a93a-910580671c60",
+      "name": "Evan Mallet",
+      "jobTitle": "Enfant",
+      "description": "Evan est un enfant de 10 ans. Il est scolarisé dans une école primaire de la ville de Nantes. Sortir dehors, jouer avec ses amis dans le quartier et aller à l'école à pied sont des choses qu'il apprécie.",
+      "avatar": "actors/enfant.png",
+      "domains": ["Bien-être"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 6,
+      "motivateAction": "Il explique vouloir se déplacer à pied et avoir des activités avec ses amis.",
+      "motivateTexts": [
+        "Je suis petit je veux jouer dans un parc, je veux pouvoir aller à l'école à pied.",
+        "Il y a beaucoup de bruit dans mon quartier, je veux un quartier calme.",
+        "Je veux un quartier vert, fleuri et bien coloré.",
+        "Je veux un quartier avec des espaces de jeux pour les enfants."
+      ]
+    }
+  ]
+}

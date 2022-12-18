@@ -1,0 +1,4 @@
+{
+  "include": ["game/**/*.ts", "tools/**/*.ts"],
+  "exclude": ["pages/**/*.tsx", "components/**/*.tsx"]
+}

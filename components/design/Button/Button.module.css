@@ -1,0 +1,75 @@
+.button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  cursor: pointer;
+  white-space: nowrap;
+  height: max-content;
+}
+
+.button:hover:not(.buttonDisabled) {
+  filter: brightness(0.8);
+}
+
+.buttonDisabled {
+  cursor: not-allowed;
+}
+
+.buttonPrimary {
+}
+
+.buttonAction {
+  background-color: #a8ec28;
+  font-weight: bold;
+}
+
+.buttonClose {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: 2px solid #cf1956;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.buttonClose::before,
+.buttonClose::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2rem;
+  height: 2px;
+  content: '';
+  background-color: #e91e63;
+  transform: rotate(-45deg);
+  transition: none 0.2s ease;
+  transition-property: top, left, width;
+}
+
+.buttonClose::after {
+  transform: rotate(45deg);
+}
+
+.buttonClose:hover::before {
+  width: 1rem;
+  top: 33%;
+  left: 20%;
+}
+.buttonClose:hover::after {
+  width: 1rem;
+  top: 66%;
+  left: 20%;
+}
+
+.buttonConflict {
+  background-color: #f5aeae;
+}
+
+.buttonTutorial {
+  background-color: #a8ec28;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}

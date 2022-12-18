@@ -1,0 +1,100 @@
+{
+  "title": "Co-construction d'une application",
+  "description": "La co-construction de l'application permettra de créer un utilitaire du quotidien pour la population nantaise. Transports, météo, menus de la cantine, places de parkinks... l'application multifonction renseigne ses citoyens sur tout ce qui les entoure.",
+  "image": "backgrounds/developpement-application.jpg",
+  "actors": [
+    {
+      "id": "1a3a7a76-9615-4fce-9263-3df3748cda5a",
+      "name": "Patrick Vacca",
+      "jobTitle": "Maire",
+      "description": "Patrick Vacca est le maire de Nantes. Il a été élu en 2014 et réélu en 2020. Il est également conseiller régional et conseiller métropolitain. Il est également président de la communauté urbaine de Nantes Métropole.",
+      "avatar": "actors/maire.png",
+      "domains": ["Budget", "Bien-être"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 25,
+      "motivateAction": "Il explique vouloir créer une application digne de sa population, sans investir énormément d'argent",
+      "motivateTexts": [
+        "La co-construction de l'application va permettre de faciliter la vie des Nantais. C'est un projet qui va permettre de créer un outil utile pour la population.",
+        "La ville de Nantes accepte de financer le projet à hauteur de 50 000€. C'est un budget conséquent mais qui permettra de créer un outil utile pour la population.",
+        "Vous, citoyens, êtes les acteurs principaux de ce projet. Vous êtes les premiers concernés par l'application. C'est donc à vous de la faire évoluer et de la rendre plus performante.",
+        "Souhaitez-vous inclure des fonctionnalités supplémentaires ? Nous pouvons en discuter."
+      ]
+    },
+    {
+      "id": "5fba8f88-9baa-4c92-8bf5-07714d2cb71b",
+      "name": "Marc Haru",
+      "jobTitle": "Développeur informatique",
+      "description": "Marc Haru est développeur informatique travaillant dans l'entreprise informatique HacheZed. Il a travaillé sur plusieurs projets de développement d'applications mobiles.",
+      "avatar": "actors/developpeur.png",
+      "domains": ["Attractivité", "Budget"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 20,
+      "motivateAction": "Il présente des exemples d'applications similaires, afin de montrer à la population ce qu'elle peut attendre de l'application",
+      "motivateTexts": [
+        "Voici l'application que j'ai eu l'occasion de développer pour la ville de Bouxwiller. 💪💪💪💪",
+        "Les exigences ne sont pas les mêmes, mais vous pouvez voir ce que l'on peut faire avec une application mobile.",
+        "Il vous suffit de cliquer sur le bouton ci-dessous pour télécharger l'application sur votre téléphone.",
+        "Faites moi parvenir vos exigences, je pourrais vous faire une proposition de fonctionnalités avec plaisir."
+      ]
+    },
+    {
+      "id": "45bbd266-76a9-40e4-a6a1-10b82a491b1a",
+      "name": "Denise Fournier",
+      "jobTitle": "Citoyenne",
+      "description": "Denise Fournier est une citoyenne de Nantes. Elle a 65 ans et se soucie de l'écologie. Elle est mère de deux enfants. Denise est de nature timide et ne s'exprime pas facilement.",
+      "avatar": "actors/citoyenne.png",
+      "domains": ["Bien-être", "Éco-responsabilité"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 25,
+      "motivateAction": "Elle explique qu'elle souhaite que l'application soit écologique, que l'application puisse promouvoir les transports en commun et les vélos",
+      "motivateTexts": [
+        "J'ai toujours utilisé les transports en commun pour me au centre ville. Je trouve que c'est une bonne chose pour l'environnement.",
+        "Il faut les mettre en avant dans l'application. Il faut aussi que l'application permette de trouver des vélos en libre-service.",
+        "Pouvez-vous rajouter une option afin de voir la météo du jour ? Je ne veux pas me retrouver trempée en arrivant au travail.",
+        "J'aime bien l'idée de pouvoir voir les menus de la cantine. Cela permet de savoir ce qu'il y a à manger pour mes enfants."
+      ]
+    },
+    {
+      "id": "489e9c1a-e187-4850-8f10-4618f5492313",
+      "name": "Jean Dupont",
+      "jobTitle": "Designer",
+      "description": "Jean Dupont est designer. Il a travaillé sur plusieurs projets de design d'interfaces utilisateur. Il a tendance à parler énormément.",
+      "avatar": "actors/architecte-designer.png",
+      "domains": ["Attractivité"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 70,
+      "motivateAction": "Jean Dupont proposera des idées de design pour l'application. Il expliquera que le design est important pour l'application.",
+      "motivateTexts": [
+        "Je veux que l'application soit belle. Je veux que l'application soit intuitive. Je veux que l'application soit agréable à utiliser.",
+        "C'est pourquoi je vais vous proposer des idées de design pour l'application. Je vais vous proposer des idées de couleurs, de polices, de boutons, etc.",
+        "Regardez ces exemples de design d'application. C'est ce que je veux pour l'application de Nantes.",
+        "Je peux recueillir vos idées de design mais il me faudra du temps pour les réaliser.",
+        "Toutes idées sont bonnes à prendre.",
+        "Je veux que l'application soit utilisée et vue par un maximum de personnes. C'est pourquoi je veux que l'application soit belle."
+      ]
+    },
+    {
+      "id": "bd45e1e3-016c-40d0-abd6-a2def4671630",
+      "name": "Jean-Eudes Cétéèsse",
+      "jobTitle": "Patron transports en commun",
+      "description": "Jean-Eudes Cétéèsse est le patron de la société de transport en commun de Nantes. Il a 55 ans et est marié. Il a deux enfants. Il est très exigeant et aime avoir le dernier mot.",
+      "avatar": "actors/patron.png",
+      "domains": ["Éco-responsabilité", "Bien-être"],
+      "projectSatisfaction": 75,
+      "boost": null,
+      "speakRatio": 70,
+      "motivateAction": "Jean-Eudes Cétéèsse expliquera vouloir mettre en avant les transports en commun dans l'application. Il expliquera que les transports en commun sont importants pour la ville.",
+      "motivateTexts": [
+        "Le sujet des transports en commun est très important pour la ville de Nantes",
+        "Saviez-vous que nous avons un réseau de transports en commun très complet ? Il y a des bus, des tramways, des métros, des vélos en libre-service, etc. Il faut que les gens s'en rendent compte.",
+        "Sans notre réseau de transports en commun, la ville de Nantes ne serait pas ce qu'elle est aujourd'hui.",
+        "Les voitures sont de plus en plus polluantes. Il faut que les gens utilisent les transports en commun. C'est pourquoi il faut mettre en avant les transports en commun dans l'application.",
+        "L'écologie est un sujet très important pour la ville de Nantes. Il faut que les gens s'en rendent compte."
+      ]
+    }
+  ]
+}

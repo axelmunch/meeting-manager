@@ -1,0 +1,55 @@
+{
+  "name": "meeting-manager",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run compodoc && next build",
+    "start": "next start",
+    "lint:commit": "commitlint",
+    "lint:editorconfig": "editorconfig-checker",
+    "lint:eslint": "eslint \"**/*.{js,jsx,ts,tsx}\" --ignore-path \".gitignore\"",
+    "lint:prettier": "prettier \".\" --check --ignore-path \".gitignore\"",
+    "test:html-w3c-validator": "start-server-and-test \"start\" \"http://127.0.0.1:3000\" \"html-w3c-validator\"",
+    "compodoc": "npx compodoc --tsconfig=\"tsconfig.doc.json\" --name=\"Meeting Manager\" --output=\"public/docs\" --includes=\".\" --assetsFolder=\"screenshots\" --hideGenerator"
+  },
+  "dependencies": {
+    "@xstate/react": "3.0.1",
+    "clsx": "1.2.1",
+    "modern-normalize": "1.1.0",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "8.0.3",
+    "react-router-dom": "6.4.3",
+    "read-pkg": "7.1.0",
+    "xstate": "4.34.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.2.0",
+    "@commitlint/config-conventional": "17.2.0",
+    "@compodoc/compodoc": "1.1.19",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "@typescript-eslint/eslint-plugin": "5.43.0",
+    "@typescript-eslint/parser": "5.43.0",
+    "editorconfig-checker": "4.0.2",
+    "eslint": "8.27.0",
+    "eslint-config-conventions": "5.0.0",
+    "eslint-config-next": "13.0.4",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-unicorn": "44.0.2",
+    "html-w3c-validator": "1.2.1",
+    "prettier": "2.7.1",
+    "start-server-and-test": "1.14.0",
+    "typescript": "4.8.4"
+  }
+}

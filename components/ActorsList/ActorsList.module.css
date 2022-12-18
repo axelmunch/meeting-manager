@@ -1,0 +1,10 @@
+.actorsListContainer {
+  overflow-y: auto;
+  height: calc(var(--app-height) - var(--header-height));
+}
+
+.actorsList {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}

@@ -1,0 +1,46 @@
+.actorsListContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.actorsList {
+  list-style-type: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.actorItem {
+  position: absolute;
+  transform: translate(-50%, 0);
+}
+
+.actorItem:nth-child(1) {
+  top: 0%;
+  left: 33%;
+}
+
+.actorItem:nth-child(2) {
+  top: 5%;
+  left: 66%;
+}
+
+.actorItem:nth-child(3) {
+  top: 30%;
+  left: 20%;
+}
+
+.actorItem:nth-child(4) {
+  top: 33%;
+  left: 80%;
+}
+
+.actorItem:nth-child(5) {
+  top: 66%;
+  left: 85%;
+}
+
+.actorItem:nth-child(6) {
+  top: 66%;
+  left: 20%;
+}

@@ -1,0 +1,60 @@
+.meetingReport {
+  left: 50%;
+  bottom: 0;
+  width: 50vw;
+  z-index: 1;
+  background-color: #fff;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  box-shadow: 0.2rem -0.2rem 0.5rem #ccc;
+  text-shadow: 0.1rem -0.1rem 0.3rem #ddd;
+  padding: 3rem;
+  transition: none 0.3s ease;
+  transition-property: transform, color;
+  background: url('/misc/paper-texture.png');
+}
+
+.miniTitle {
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  margin: 0;
+  color: #2c2628 !important;
+}
+
+.actorElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actorSpeakTimes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.speakTimeGauge {
+  width: 1rem;
+  height: 8rem;
+  position: relative;
+  background-color: #f5f5f5;
+  border: 1px solid #aaa;
+}
+
+.speakTimeGauge > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(#22bece, #22cea9);
+  animation: gauge 1s ease;
+}
+
+@keyframes gauge {
+  0% {
+    height: 0;
+  }
+}

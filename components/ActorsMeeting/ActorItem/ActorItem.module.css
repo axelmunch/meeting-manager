@@ -1,0 +1,60 @@
+.actorItem {
+  position: relative;
+}
+
+.actorItem > *:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actorItem > *:first-child {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 0.05rem;
+  align-items: baseline;
+}
+
+.actorItem img {
+  max-width: 15vw;
+  max-height: 20vh;
+}
+
+.leftText {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem;
+  background-color: #f5aeae;
+  color: #000;
+  border: 1px solid #000;
+  opacity: 0.9;
+}
+
+.bubbleContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bubble {
+  position: absolute;
+  z-index: 101;
+  background-image: url('/misc/chat-bubble.svg');
+  filter: invert(94%) sepia(11%) saturate(1572%) hue-rotate(137deg)
+    brightness(94%) contrast(95%);
+  width: 2.5rem;
+  height: 2.5rem;
+  animation: bubbleAnimate 1.5s ease infinite;
+}
+
+@keyframes bubbleAnimate {
+  0% {
+  }
+  100% {
+    transform: translateY(0) scale(0.5);
+    opacity: 0;
+  }
+}

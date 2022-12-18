@@ -1,0 +1,25 @@
+:root {
+  --app-height: 100vh;
+  --header-height: 64px;
+}
+
+body {
+  background-color: #f5f5f5;
+  overflow: hidden;
+  cursor: url(../public/cursors/cursor.png), default !important;
+}
+a,
+button,
+.selected-cursor {
+  cursor: url(../public/cursors/pointer.png), pointer !important;
+}
+
+#__next {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.h-full-without-header {
+  height: calc(var(--app-height) - var(--header-height));
+}

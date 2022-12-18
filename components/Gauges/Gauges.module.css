@@ -1,0 +1,54 @@
+.gauges {
+  padding: 0;
+}
+
+.gauge {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.gauge > p {
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.gauge > div {
+  width: 18vw;
+  height: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #000;
+  display: flex;
+  position: relative;
+}
+
+.gauge > div::before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 100%;
+  background-color: #f00;
+
+  /* Alert level */
+  left: 25%;
+  display: none;
+}
+
+.gauge > div::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 100%;
+  background-color: #888;
+
+  /* Average level */
+  left: 50%;
+  display: none;
+}
+
+.gauge > div > div {
+  background: linear-gradient(#22bece, #22cea9);
+}

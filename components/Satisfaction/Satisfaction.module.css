@@ -1,0 +1,23 @@
+.satisfaction {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.satisfaction .happy {
+  /* #A8EC28 */
+  filter: invert(72%) sepia(92%) saturate(404%) hue-rotate(28deg)
+    brightness(105%) contrast(89%);
+}
+
+.satisfaction .normal {
+  /* #ECA428 */
+  filter: invert(66%) sepia(33%) saturate(1035%) hue-rotate(356deg)
+    brightness(101%) contrast(85%);
+}
+
+.satisfaction .sad {
+  /* #EC3428 */
+  filter: invert(22%) sepia(51%) saturate(5116%) hue-rotate(352deg)
+    brightness(101%) contrast(85%);
+}

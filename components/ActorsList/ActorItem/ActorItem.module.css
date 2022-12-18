@@ -1,0 +1,57 @@
+.actorItem {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 25%) 0px 0px 1px 1px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease;
+}
+
+.actorConflict {
+  background-color: #f5aeae;
+}
+
+.title {
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.actorItem:hover {
+  transform: scale(1.05);
+}
+
+.actorSelected {
+  background-color: #aeaeae;
+}
+
+.actorSelected.actorConflict {
+  background-color: #b68282;
+}
+
+.actorSelected.actorLeftProject {
+  background-color: #b68282;
+}
+
+.text {
+  margin-top: 0;
+  font-weight: bold;
+  padding: 0.2rem;
+  border: solid 1px #000;
+}
+
+.actorLeftProject {
+  background: linear-gradient(
+      -60deg,
+      transparent calc(50% - 1px),
+      #444 calc(50% - 1px),
+      #444 calc(50% + 1px),
+      transparent calc(50% + 1px)
+    )
+    50% / 75% 75% no-repeat;
+}

@@ -1,0 +1,17 @@
+{
+  "extends": ["conventions", "next/core-web-vitals", "prettier"],
+  "plugins": ["prettier", "unicorn"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "unicorn/prefer-node-protocol": "error",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "@next/next/no-img-element": "off"
+  }
+}
